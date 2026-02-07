@@ -1,0 +1,12 @@
+# Secrets
+.env
+client_secret.json
+firebase-adminsdk.json
+*.json
+
+# Flask
+__pycache__/
+.flask_session/
+instance/
+app.log
+flask_errors.log

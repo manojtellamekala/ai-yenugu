@@ -1,0 +1,13 @@
+/* Dark mode toggle */
+.dark {
+  --tw-bg-opacity: 1;
+  background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+  color: rgba(243, 244, 246, var(--tw-text-opacity));
+}
+
+/* Smooth transitions */
+.transition-colors {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}

@@ -1,0 +1,62 @@
+/* App.css */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.loading-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Dark mode support */
+[data-theme="dark"] .loading-screen {
+  background-color: #1a1a1a;
+}
+
+[data-theme="dark"] .spinner {
+  border: 5px solid #2d3748;
+  border-top: 5px solid #4299e1;
+}
+
+/* Toast notifications customization */
+.Toastify__toast {
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+}
+
+.Toastify__toast--success {
+  background-color: #10b981;
+}
+
+.Toastify__toast--error {
+  background-color: #ef4444;
+}
+
+.Toastify__toast--info {
+  background-color: #3b82f6;
+}
+
+.Toastify__toast--warning {
+  background-color: #f59e0b;
+}
