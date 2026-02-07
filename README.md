@@ -85,7 +85,7 @@ This project is open-source and intended for educational and experimental use.
 ## 👤 Author
 
 **Y. Chennakesava Reddy** 
-Final-year BTech (CSE) 
-**https://chennayenugu.ccbp.tech/** 
-Backend & AI Systems Enthusiast  
-Open-source learner 🚀
+-Final-year BTech (CSE) 
+-**https://chennayenugu.ccbp.tech/** 
+-Backend & AI Systems Enthusiast  
+-Open-source learner 🚀
